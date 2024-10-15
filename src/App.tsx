@@ -1,10 +1,10 @@
 import QrCodeGenerator from "./components/QrGenerator"
-import Test from "./components/Test"
+// import Test from "./components/Test"
 const App = () => {
   return (
     <div>
-      {/* <QrCodeGenerator/> */}
-      <Test/>
+      <QrCodeGenerator/>
+      {/* <Test/> */}
     </div>
   )
 }
